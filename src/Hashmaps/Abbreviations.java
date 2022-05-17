@@ -1,3 +1,4 @@
+package Hashmaps;
 import java.util.HashMap;
 
 public class Abbreviations {
@@ -20,23 +21,6 @@ public class Abbreviations {
     public String findExplanationFor(String abbrev) {
         return abbreviation.get(abbrev);
     }
-
-    // public static void printKeys(HashMap<String, String> abbrev){
-    //     for (String abbreviation: abbrev.keySet()){
-    //         abbrev.get(abbreviation);
-    //     }
-    // }
-    
-    // public static void printKeysWhere(HashMap<String, String> abbrev){
-    //     for (String abbreviation: abbrev.keySet()){
-
-
-    //     }
-    // }
-    
-    // public static void printValuesOfKeysWhere(HashMap<String,String> hashmap, String text){
-        
-    // }
     
     public String toString() {
         return abbrev + " is short for " + explanation;

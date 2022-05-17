@@ -1,3 +1,4 @@
+package Hashmaps;
 public class Book {
     private String name;
     private String content;

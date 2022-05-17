@@ -1,0 +1,21 @@
+package Interfaces.Tacos;
+
+public class CustomTacoBox implements TacoBox{
+    int tacos;
+
+    public CustomTacoBox(int tacos){
+        this.tacos = tacos;
+    }
+
+    @Override
+    public int tacosRemaining() {
+        return this.tacos;
+    }
+
+    @Override
+    public void eat() {
+        this.tacos -= 1;
+        
+    }
+    
+}
